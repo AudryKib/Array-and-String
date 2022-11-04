@@ -39,9 +39,9 @@ let c = 6
 
 const arrSt = new ArrayString()
 
-const aboveBellow = arrSt.aboveBelow(ar, c)
+const aboveBelow = arrSt.aboveBelow(ar, c)
 
 const stringRotate = arrSt.stringRotation("MyString", 2)
 
-console.log( 'aboveBelow result',aboveBellow)
+console.log( 'aboveBelow result',aboveBelow)
 console.log(`String Rotation ${stringRotate}`)
